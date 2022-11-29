@@ -72,3 +72,7 @@
     background: linear-gradient(55deg, rgba(0,0,0,0.9937814955083596) 0%, rgba(110,110,110,0.9514005431274072) 100%); 
     /* opacity: 0.9; */
 }
+.bg {
+    background-color: #808080;
+    border-radius: 5px;
+}
