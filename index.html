@@ -18,9 +18,10 @@
     <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="img/favicon.png">
+    <!-- AOS animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
-
     <!-- Comentar ésta sección para trabajar en el sitio. -->
     <!-- Under construcction section -->
     <section>
@@ -58,7 +59,7 @@
             <!-- Sidebar project list -->
             <ul class="sidebar-scroll">
               <li class="mb-2 pb-1">
-                <a class="sidebar-link h6 text-sm navbar-portfolio" href="detail.html">Benchmark</a>
+                <a class="sidebar-link h6 text-sm navbar-portfolio" href="benchmark.html">Benchmark</a>
               </li>
               <li class="mb-2 pb-1">
                 <a class="sidebar-link h6 text-sm navbar-portfolio" href="proyecto-2.html">Proyecto 2</a>
@@ -302,92 +303,67 @@
           </div>
         </div>
       </div>
-
-      <!-- Footer Section -->
-      <footer class="text-muted footer">
-        <div class="container-fluid py-5">
+    </div>
+    <!-- Footer Section -->
+    <footer class="text-muted footer" data-aos="fade-down">
+      <div class="container-fluid py-5">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="row gy-4">
+              <!-- About me col -->
+              <div class="col-lg-5">
+                <h2 class="h4 mb-4">Sobre mí</h2>
+                <p class="text-sm">Diseñador de experiencia de usuario. Maquetador en tiempos libres. D&D lover.</p>
+                <ul class="list-unstyled text-sm mb-0">
+                  <li class="mb-1 text-muted"><a class="reset-anchor" href="https://goo.gl/maps/M5ngyp2i7XMQ5tWk7" target="_blank" rel="noopener noreferrer nofollow"><i class="fas me-2 fa-fw fa-globe-americas"></i>Castelli 7324 - Posadas, Misiones.</a></li>
+                  <li class="mb-1 text-muted"><a class="reset-anchor"> <i class="fas me-2 fa-fw fa-mobile"></i>+54 9 3751527117</a></li>
+                  <li class="mb-1 text-muted"><a class="reset-anchor"> <i class="fas me-2 fa-fw fa-envelope"></i>juannahuelbeck@gmail.com</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Social network icons -->
+      <div class="container-fluid py-5">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="row gy-4">
+              <ul class="list-inline list-social mb-3">
+                <li class="list-inline-item"><a class="reset-anchor" href="https://www.facebook.com/nahue.beck/" target="_blank" rel="noopener noreferrer nofollow"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a class="reset-anchor" href="https://www.instagram.com/nahuelbeck/" target="_blank" rel="noopener noreferrer nofollow"><i class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a class="reset-anchor" href="https://www.linkedin.com/in/nahuel-beck/" target="_blank" rel="noopener noreferrer nofollow"><i class="fab fa-linkedin"></i></a></li>
+                <!-- <li class="list-inline-item"><a class="reset-anchor" href="juannahuelbeck@gmail.com" target="_blank" rel="noopener noreferrer nofollow"><i class="fas fa-envelope"></i></a></li> -->
+                <!-- <li class="list-inline-item"><a class="reset-anchor" href="#!"><i class="fab fa-twitter"></i></a></li> -->
+                <!-- <li class="list-inline-item"><a class="reset-anchor" href="#!"><i class="fab fa-dribbble"></i></a></li> -->
+              </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-footer py-4" id="sign">
+        <div class="container-fluid">
           <div class="row">
             <div class="col-lg-10 mx-auto">
-              <div class="row gy-4">
-                <div class="col-lg-4">
-                  <h2 class="h4 mb-4">Sobre mí</h2>
-                  <p class="text-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-                  <ul class="list-unstyled text-sm mb-0 text-white">
-                    <li class="mb-1"><a class="reset-anchor" href="https://goo.gl/maps/M5ngyp2i7XMQ5tWk7" target="_blank" rel="noopener noreferrer nofollow" > <i class="fas text-muted me-2 fa-fw fa-globe-americas"></i>Castelli 7324 - Posadas, Misiones.</a></li>
-                    <li class="mb-1"><a class="reset-anchor"> <i class="fas text-muted me-2 fa-fw fa-mobile"></i>+54 9 3751527117</a></li>
-                    <li class="mb-1"><a class="reset-anchor"> <i class="fas text-muted me-2 fa-fw fa-envelope"></i>juannahuelbeck@gmail.com</a></li>
-                  </ul>
+              <div class="row text-muted">
+                <div class="col-md-6 text-center text-md-start">
+                  <!-- <p class="text-sm mb-3 mb-md-0"><span class="text-muted">&copy; All rights reserved - Your company.</span></p> -->
                 </div>
-                <div class="col-lg-4">               
-                  <h2 class="h4 text-white mb-4">Follow me</h2>
-                  <ul class="list-inline">
-                    <div class="row text-white text-sm">
-                      <div class="col-6">
-                        <ul class="list-unstyled">
-                          <li><a class="reset-anchor" href="https://www.facebook.com/nahue.beck/"><i class="fab me-2 mb-2 fa-fw fa-facebook-f"></i>Facebook</a></li>
-                          <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-twitter"></i>Twitter</a></li>
-                          <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-instagram"></i>Instagram</a></li>
-                          <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-dribbble"></i>Dribbble</a></li>
-                        </ul>
-                      </div>
-                      <div class="col-6">
-                        <ul class="list-unstyled">
-                          <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-linkedin-in"></i>Linkedin</a></li>
-                          <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-pinterest"></i>Pinterest</a></li>
-                          <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-vimeo"></i>Vimeo</a></li>
-                          <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-youtube"></i>Youtube</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </ul>
-                </div>
-                <div class="col-lg-4">
-                  <h2 class="h4 text-white mb-4">News</h2>
-                  <ul class="list-unstyled mb-0">
-                    <li><a class="reset-anchor" href="#!"> 
-                        <div class="d-flex">
-                          <div class="flex-shrink-0"><img class="rounded-circle" src="img/news-1.jpg" alt="Design is all" width="50"></div>
-                          <div class="ms-3">
-                            <p class="text-white mb-0">Design is all</p>
-                            <p class="small mb-1"></p>
-                            <p class="text-gray text-sm">Lorem ipsum dolor sit amet, consetetur sadipscing.</p>
-                          </div>
-                        </div></a></li>
-                    <li><a class="reset-anchor" href="#!"> 
-                        <div class="d-flex">
-                          <div class="flex-shrink-0"><img class="rounded-circle" src="img/news-2.jpg" alt="Power is art" width="50"></div>
-                          <div class="ms-3">
-                            <p class="text-white mb-0">Power is art</p>
-                            <p class="small mb-1">23 Dec 2019</p>
-                            <p class="text-gray text-sm">Lorem ipsum dolor sit amet, consetetur sadipscing.</p>
-                          </div>
-                        </div></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="bg-dark py-4">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-10 mx-auto">
-                <div class="row text-white">
-                  <div class="col-md-6 text-center text-md-start">
-                    <!-- <p class="text-sm mb-3 mb-md-0"><span class="text-muted">&copy; All rights reserved - Your company.</span></p> -->
-                  </div>
-                  <div class="col-md-6 text-center text-md-end">
-                    <p class="text-sm mb-0" style="opacity: 0.3;">
-                    <span class="text-muted">Template diseñador por </span><a class="reset-anchor" href="https://bootstrapious.com/p/minimal-bootstrap-creative-portfolio">Bootstrapious</a>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="text-sm mb-0" style="opacity: 0.5;">
+                      <span class="text-dark">Template de </span>
+                      <a class="reset-anchor" href="https://bootstrapious.com/p/minimal-bootstrap-creative-portfolio">Bootstrapious</a>
+                      <span class="text-dark"> reacondicionado por Nahuel Beck</span>
                     </p>
-                  </div>
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
     <!-- JavaScript files-->
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/masonry-layout/masonry.pkgd.min.js"></script>
@@ -418,6 +394,12 @@
       // pls don't forget to change to your domain :)
       injectSvgSprite('https://bootstraptemple.com/files/icons/orion-svg-sprite.svg'); 
       
+    </script>
+
+    <!-- AOS animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
     <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
