@@ -18,36 +18,77 @@
     <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="img/favicon.png">
+    <!-- AOS animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
+
+    <!-- Botón de Whatsapp -->
+    <a href="https://wa.me/543764662309?text=Hola,%20me%20gustaría%20realizar%20una%20consulta%20sobre..." class="whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    <!-- Sidebar -->
     <div class="sidebar">
       <div class="sidebar-inner d-flex flex-column">
-        <div class="px-4 py-5"><a href="index.html"><img src="img/logo.svg" alt="" width="90"></a></div>
+        <div class="px-4 py-5"><a href="index.html"><img src="img/logo.svg" alt="Nahuel Beck logo" width="90"></a></div>
         <div class="sidebar-menu-holder flex-grow-1">
           <ul class="sidebar-menu list-unstyled">
-            <!-- <li class="mb-2 pb-1">
-              <a class="sidebar-link h6 text-uppercase letter-spacing-2 fw-bold text-sm" href="index.html">Inicio</a>
-            </li> -->
             <li class="mb-2 pb-1">
-              <a class="sidebar-link h6 text-uppercase letter-spacing-2 fw-bold text-sm" href="text.html">Sobre mi</a>
+              <a class="sidebar-link h6 text-uppercase fw-bold text-sm active" href="index.html">Inicio</a>
             </li>
             <li class="mb-2 pb-1">
-              <a class="sidebar-link h6 text-uppercase letter-spacing-2 fw-bold text-sm active" href="detail.html">Potfolio</a>
+              <a class="sidebar-link h6 text-uppercase fw-bold text-sm" href="text.html">Sobre mi</a>
             </li>
+            <li class="mb-2 pb-1">
+              <!-- <a class="sidebar-link h6 text-uppercase fw-bold text-sm" href="index.html">Portfolio</a> -->
+              <p class="sidebar-link h6 text-uppercase fw-bold text-sm">Proyectos</p>
+            </li>
+
+            <!-- Sidebar project list -->
+            <ul class="sidebar-scroll">
+              <li class="mb-2 pb-1">
+                <a class="sidebar-link h6 text-sm navbar-portfolio" href="benchmark.html">Benchmark</a>
+              </li>
+              <li class="mb-2 pb-1">
+                <a class="sidebar-link h6 text-sm navbar-portfolio" href="proyecto-2.html">Proyecto 2</a>
+              </li>
+              <li class="mb-2 pb-1">
+                <a class="sidebar-link h6 text-sm navbar-portfolio" href="proyecto-3.html">Proyecto 2</a>
+              </li>
+              <li class="mb-2 pb-1">
+                <a class="sidebar-link h6 text-sm navbar-portfolio" href="proyecto-4.html">Proyecto 2</a>
+              </li>
+              <li class="mb-2 pb-1">
+                <a class="sidebar-link h6 text-sm navbar-portfolio" href="proyecto-5.html">Proyecto 2</a>
+              </li>
+              <li class="mb-2 pb-1">
+                <a class="sidebar-link h6 text-sm navbar-portfolio" href="proyecto-6.html">Proyecto 2</a>
+              </li>
+              <li class="mb-2 pb-1">
+                <a class="sidebar-link h6 text-sm navbar-portfolio" href="proyecto-7.html">Proyecto 2</a>
+              </li>
+              <li class="mb-2 pb-1">
+                <a class="sidebar-link h6 text-sm navbar-portfolio" href="proyecto-8.html">Proyecto 2</a>
+              </li>
+              <li class="mb-2 pb-1">
+                <a class="sidebar-link h6 text-sm navbar-portfolio" href="proyecto-9.html">Proyecto 2</a>
+              </li>
+            </ul>
           </ul>
         </div>
+
+        <!-- Social network icons -->
         <div class="px-4 py-3">
           <ul class="list-inline list-social mb-3">
-            <li class="list-inline-item"><a class="reset-anchor" href="#!"><i class="fab fa-facebook-f"></i></a></li>
-            <li class="list-inline-item"><a class="reset-anchor" href="#!"><i class="fab fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a class="reset-anchor" href="#!"><i class="fab fa-linkedin"></i></a></li>
-            <li class="list-inline-item"><a class="reset-anchor" href="#!"><i class="fas fa-envelope"></i></a></li>
+            <li class="list-inline-item"><a class="reset-anchor" href="https://www.facebook.com/nahue.beck/" target="_blank" rel="noopener noreferrer nofollow"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a class="reset-anchor" href="https://www.instagram.com/nahuelbeck/" target="_blank" rel="noopener noreferrer nofollow"><i class="fab fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a class="reset-anchor" href="https://www.linkedin.com/in/nahuel-beck/" target="_blank" rel="noopener noreferrer nofollow"><i class="fab fa-linkedin"></i></a></li>
+            <!-- <li class="list-inline-item"><a class="reset-anchor" href="juannahuelbeck@gmail.com" target="_blank" rel="noopener noreferrer nofollow"><i class="fas fa-envelope"></i></a></li> -->
             <!-- <li class="list-inline-item"><a class="reset-anchor" href="#!"><i class="fab fa-twitter"></i></a></li> -->
             <!-- <li class="list-inline-item"><a class="reset-anchor" href="#!"><i class="fab fa-dribbble"></i></a></li> -->
           </ul>
         </div>
       </div>
     </div>
+
     <div class="page-holder">
       <div class="px-4 d-block d-lg-none">
         <!-- navbar-->
@@ -74,18 +115,24 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-7">
-              <h1>Proyecto 2</h1>
-              <p class="text-muted mb-5">Éste va a ser el proyecto de Portal Ventas de Barbieri</p>
+              <h1>proyecto 2</h1>
+              <p class="text-muted mb-5">Administración de publicaciones en red de comercio para gestionar la competencia.</p>
             </div>
           </div>
           <div class="row mb-5">
-            <div class="col-lg-7"><a class="glightbox product-view" href="img/portfolio-4.jpg" data-gallery="gallery" data-glightbox="Tour de France"><img class="img-fluid mb-4" src="img/portfolio-3.jpg" alt="..."></a><a class="glightbox product-view" href="img/portfolio-1.jpg" data-gallery="gallery" data-glightbox="Tour de France"><img class="img-fluid mb-4" src="img/portfolio-1.jpg" alt="..."></a></div>
+            <div class="col-lg-7">
+              <a class="glightbox product-view" href="img/portfolio-3.jpg" data-gallery="gallery" data-glightbox="Tour de France">
+                <img class="img-fluid mb-4" src="img/portfolio-3.jpg" alt="..."></a>
+              <a class="glightbox product-view" href="img/portfolio-1.jpg" data-gallery="gallery" data-glightbox="Tour de France">
+                <img class="img-fluid mb-4" src="img/portfolio-1.jpg" alt="...">
+              </a>
+            </div>
             <div class="col-lg-5 position-sticky">
               <h2>Idea</h2>
               <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <h2>Proceso</h2>
               <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <div class="p-4 bg-light mb-5">
+              <!-- <div class="p-4 bg-light mb-5">
                 <ul class="list-unstyled mb-0">
                   <li class="d-flex mb-2">
                     <h6 class="mb-0">Category</h6>
@@ -101,7 +148,7 @@
                   </li>
                 </ul>
               </div>
-              <!-- <h2 class="h3 mb-4">Share</h2>
+              <h2 class="h3 mb-4">Share</h2>
               <ul class="list-inline">
                 <li class="list-inline-item"><a class="reset-anchor social-share-link facebook" href="#!"><i class="fab me-2 fa-facebook-f"></i>Share</a></li>
                 <li class="list-inline-item"><a class="reset-anchor social-share-link twitter" href="#!"><i class="fab me-2 fa-twitter"></i>Tweet</a></li>
@@ -116,7 +163,7 @@
                 <div class="position-relative">
                   <ul class="list-inline listing-tags m-0">
                     <li class="list-inline-item"><a class="reset-anchor fw-normal text-gray text-sm" href="detail.html">Creative</a></li>
-                  </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid rounded-lg" src="img/portfolio-6.jpg" alt="Banana Lady"/>
+                  </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid rounded-lg" src="img/portfolio-1.jpg" alt="Banana Lady"/>
                     <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
                       <svg class="svg-icon text-primary svg-icon-sm ms-1">
                         <use xlink:href="#arrow-right-1"> </use>
@@ -168,91 +215,68 @@
           </div>
         </div>
       </div>
-      <footer class="text-muted" style="background: #0d0d0d">
-        <div class="container-fluid py-5">
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="text-muted footer" data-aos="fade-down">
+      <div class="container-fluid py-5">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="row gy-4">
+              <!-- About me col -->
+              <div class="col-lg-5">
+                <h2 class="h4 mb-4">Sobre mí</h2>
+                <p class="text-sm">Diseñador de experiencia de usuario. Maquetador en tiempos libres. D&D lover.</p>
+                <ul class="list-unstyled text-sm mb-0">
+                  <li class="mb-1 text-muted"><a class="reset-anchor" href="https://goo.gl/maps/M5ngyp2i7XMQ5tWk7" target="_blank" rel="noopener noreferrer nofollow"><i class="fas me-2 fa-fw fa-globe-americas"></i>Castelli 7324 - Posadas, Misiones.</a></li>
+                  <li class="mb-1 text-muted"><a class="reset-anchor"> <i class="fas me-2 fa-fw fa-mobile"></i>+54 9 3751527117</a></li>
+                  <li class="mb-1 text-muted"><a class="reset-anchor"> <i class="fas me-2 fa-fw fa-envelope"></i>juannahuelbeck@gmail.com</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Social network icons -->
+      <div class="container-fluid py-5">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="row gy-4">
+              <ul class="list-inline list-social mb-3">
+                <li class="list-inline-item"><a class="reset-anchor" href="https://www.facebook.com/nahue.beck/" target="_blank" rel="noopener noreferrer nofollow"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a class="reset-anchor" href="https://www.instagram.com/nahuelbeck/" target="_blank" rel="noopener noreferrer nofollow"><i class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a class="reset-anchor" href="https://www.linkedin.com/in/nahuel-beck/" target="_blank" rel="noopener noreferrer nofollow"><i class="fab fa-linkedin"></i></a></li>
+                <!-- <li class="list-inline-item"><a class="reset-anchor" href="juannahuelbeck@gmail.com" target="_blank" rel="noopener noreferrer nofollow"><i class="fas fa-envelope"></i></a></li> -->
+                <!-- <li class="list-inline-item"><a class="reset-anchor" href="#!"><i class="fab fa-twitter"></i></a></li> -->
+                <!-- <li class="list-inline-item"><a class="reset-anchor" href="#!"><i class="fab fa-dribbble"></i></a></li> -->
+              </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-footer py-4" id="sign">
+        <div class="container-fluid">
           <div class="row">
             <div class="col-lg-10 mx-auto">
-              <div class="row gy-4">
-                <div class="col-lg-4">
-                  <h2 class="h4 text-white mb-4">About me</h2>
-                  <p class="text-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-                  <ul class="list-unstyled text-sm mb-0 text-white">
-                    <li class="mb-1"><a class="reset-anchor" href="#!"> <i class="fas text-muted me-2 fa-fw fa-globe-americas"></i>4274  Williams Avenue, California.</a></li>
-                    <li class="mb-1"><a class="reset-anchor" href="#!"> <i class="fas text-muted me-2 fa-fw fa-mobile"></i>123-456-789</a></li>
-                    <li class="mb-1"><a class="reset-anchor" href="#!"> <i class="fas text-muted me-2 fa-fw fa-envelope"></i>Jason@example.com</a></li>
-                  </ul>
+              <div class="row text-muted">
+                <div class="col-md-6 text-center text-md-start">
+                  <!-- <p class="text-sm mb-3 mb-md-0"><span class="text-muted">&copy; All rights reserved - Your company.</span></p> -->
                 </div>
-                <div class="col-lg-4">               
-                  <h2 class="h4 text-white mb-4">Follow me</h2>
-                  <ul class="list-inline">
-                    <div class="row text-white text-sm">
-                      <div class="col-6">
-                        <ul class="list-unstyled">
-                          <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-facebook-f"></i>Facebook</a></li>
-                          <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-twitter"></i>Twitter</a></li>
-                          <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-instagram"></i>Instagram</a></li>
-                          <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-dribbble"></i>Dribbble</a></li>
-                        </ul>
-                      </div>
-                      <div class="col-6">
-                        <ul class="list-unstyled">
-                          <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-linkedin-in"></i>Linkedin</a></li>
-                          <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-pinterest"></i>Pinterest</a></li>
-                          <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-vimeo"></i>Vimeo</a></li>
-                          <li><a class="reset-anchor" href="#!"><i class="fab me-2 mb-2 fa-fw fa-youtube"></i>Youtube</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </ul>
-                </div>
-                <div class="col-lg-4">
-                  <h2 class="h4 text-white mb-4">News</h2>
-                  <ul class="list-unstyled mb-0">
-                    <li><a class="reset-anchor" href="#!"> 
-                        <div class="d-flex">
-                          <div class="flex-shrink-0"><img class="rounded-circle" src="img/news-1.jpg" alt="Design is all" width="50"></div>
-                          <div class="ms-3">
-                            <p class="text-white mb-0">Design is all</p>
-                            <p class="small mb-1"></p>
-                            <p class="text-gray text-sm">Lorem ipsum dolor sit amet, consetetur sadipscing.</p>
-                          </div>
-                        </div></a></li>
-                    <li><a class="reset-anchor" href="#!"> 
-                        <div class="d-flex">
-                          <div class="flex-shrink-0"><img class="rounded-circle" src="img/news-2.jpg" alt="Power is art" width="50"></div>
-                          <div class="ms-3">
-                            <p class="text-white mb-0">Power is art</p>
-                            <p class="small mb-1">23 Dec 2019</p>
-                            <p class="text-gray text-sm">Lorem ipsum dolor sit amet, consetetur sadipscing.</p>
-                          </div>
-                        </div></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="bg-dark py-4">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-10 mx-auto">
-                <div class="row text-white">
-                  <div class="col-md-6 text-center text-md-start">
-                    <p class="text-sm mb-3 mb-md-0"><span class="text-muted">&copy; All rights reserved - Your company.</span></p>
-                  </div>
-                  <div class="col-md-6 text-center text-md-end">
-                    <p class="text-sm mb-0">
-                      <!-- You are completely free to use this template for your personal use or as a work for your client as long as you keep the link at the template footer pointing to our partner and us.-->
-                      <!-- If you would prefer removing the backlink from the theme footer, please purchase the attribution-free license at the theme page at https://bootstrapious.com/attribution-free-license.                            --><span class="text-muted">Template designed by </span><a class="reset-anchor" href="https://bootstrapious.com/p/minimal-bootstrap-creative-portfolio">Bootstrapious</a>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="text-sm mb-0" style="opacity: 0.5;">
+                      <span class="text-dark">Template de </span>
+                      <a class="reset-anchor" href="https://bootstrapious.com/p/minimal-bootstrap-creative-portfolio">Bootstrapious</a>
+                      <span class="text-dark"> reacondicionado por Nahuel Beck</span>
                     </p>
-                  </div>
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
     <!-- JavaScript files-->
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/masonry-layout/masonry.pkgd.min.js"></script>
@@ -283,6 +307,11 @@
       // pls don't forget to change to your domain :)
       injectSvgSprite('https://bootstraptemple.com/files/icons/orion-svg-sprite.svg'); 
       
+    </script>
+    <!-- AOS animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
     <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
