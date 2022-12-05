@@ -105,3 +105,29 @@
     position: absolute;
     bottom: 0;
 } */
+.btn-figma {
+    background-color: #fff;
+    border: 1px solid #ef5285;
+    border-radius: 15px;
+}
+.btn-figma i {
+    color: #ef5285;
+}
+.btn-figma :hover{
+    color: #fff !important;
+    /* background-color: #ef5285 !important; */
+    transition-duration: 0.35s;
+    transition-delay: 0.1s;
+}
+.hov :hover{
+    color: #fff !important;
+    background-color: #ef5285 !important;
+    transition-duration: 0.35s;
+    transition-delay: 0.1s;
+}
+.figma-window{
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    place-items: center normal;
+}
