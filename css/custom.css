@@ -146,3 +146,14 @@
 h4{
     font-weight: 100;
 }
+
+.img-perfil img{
+    filter: grayscale(1);
+}
+
+@media (hover:hover){
+    .img-perfil img:hover{
+        filter: grayscale(0);
+        transition: all .5s;
+    }
+}
