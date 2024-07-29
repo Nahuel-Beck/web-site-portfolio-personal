@@ -276,3 +276,26 @@ h4{
 .texto-modal-contacto{
 
 }
+
+.boton-form-footer button{
+    position: relative;
+    font-weight: 600;
+    border: none;
+    background-color: #878f96;
+    color: #3e3f41;
+    padding: 1rem;
+}
+@media (hover:hover) {
+    .boton-form-footer button:hover{
+        width: 30vw;
+        font-weight: 600;
+        font-size: large;
+        padding: 1.4rem 0rem;
+        background-color: #ef5285;
+        border: #6c757d;
+        transition: all .4s;
+    }
+}
+.boton-form-footer i {
+    padding-right: 1rem;
+}
