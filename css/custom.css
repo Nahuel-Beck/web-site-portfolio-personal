@@ -237,3 +237,42 @@ h4{
     height: 100%;
     object-fit: cover;
 }
+
+/* Formulario de Contacto */
+.cabeza-modal{
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.cabeza-modal button{
+    border: none;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    background-color: #6c757d;
+    color: #fff;
+}
+.cabeza-modal button:hover{
+    background-color: #ef5285;
+}
+
+.titulo-modal-contacto{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content form label,
+.modal-content form input,
+.modal-content form textarea  {
+    width: 100%;
+}
+.modal-content form input,
+.modal-content form textarea  {
+    padding: 1rem .5rem;
+    border-radius: 5px;
+    border: 1px solid #6c757d;
+    color: #6c757d;
+}
+
+.texto-modal-contacto{
+
+}
