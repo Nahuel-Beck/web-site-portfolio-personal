@@ -128,8 +128,13 @@
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index: 9999;">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <div class="modal-header cabeza-modal">
+                <div class="titulo-modal-contacto">
+                  <h5 class="modal-title" id="exampleModalLabel">Conversemos</h5>
+                  <div class="texto-modal-contacto">
+                    <p class="modal-title">Gracias por comunicarte, te voy a responder lo antes posible</p>
+                  </div>
+                </div>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
@@ -137,19 +142,19 @@
               <div class="modal-body">
                 <form name="contact" netlify>
                   <p>
-                    <label>Nombre <input type="text" name="name" /></label>
+                    <label><input type="text" name="name" placeholder="Nombre" /></label>
                   </p>
                   <p>
-                    <label>Email <input type="email" name="email" /></label>
+                    <label><input type="email" name="email" placeholder="Email" /></label>
                   </p>
                   <p>
-                    <input type="text">
+                    <label><textarea type="message" name="message" placeholder="Escribe tu mensaje"></textarea></label>
                   </p>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                     <button type="submit" class="btn btn-primary">Enviar</button>
+                  </div>
                 </form>
-              </div>
               </div>
             </div>
           </div>
