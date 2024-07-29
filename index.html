@@ -77,19 +77,23 @@
                 <a class="sidebar-link h6 text-sm navbar-portfolio" href="inventario-gob.html">Inventario</a>
               </li>
               <li class="mb-2 pb-1">
-                <a class="sidebar-link h6 text-sm navbar-portfolio" href="proyecto-6.html">Proyecto 2</a>
+                <a class="sidebar-link h6 text-sm navbar-portfolio" href="disrosoft.html">DisroAgro</a>
               </li>
               <li class="mb-2 pb-1">
-                <a class="sidebar-link h6 text-sm navbar-portfolio" href="proyecto-7.html">Proyecto 2</a>
+                <a class="sidebar-link h6 text-sm navbar-portfolio" href="ipti.html">IPTI</a>
               </li>
               <li class="mb-2 pb-1">
-                <a class="sidebar-link h6 text-sm navbar-portfolio" href="proyecto-8.html">Proyecto 2</a>
+                <a class="sidebar-link h6 text-sm navbar-portfolio" href="red-yva.html">Red Yvá</a>
               </li>
               <li class="mb-2 pb-1">
-                <a class="sidebar-link h6 text-sm navbar-portfolio" href="proyecto-9.html">Proyecto 2</a>
+                <a class="sidebar-link h6 text-sm navbar-portfolio" href="animacion.html">Animaciones</a>
               </li>
             </ul>
           </ul>
+          <!-- Botón de contacto -->
+          <div class="boton-form mx-2">
+            <button type="button" class="btn btn-outline-dark w-100" data-toggle="modal" data-target="#myModal">Contacto</button>
+          </div>
         </div>
 
         <!-- Social network icons -->
@@ -120,7 +124,38 @@
         </header>
       </div>
 
-      <!-- Grid ection -->
+        <!-- Modal para contacto -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index: 9999;">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form name="contact" netlify>
+                  <p>
+                    <label>Nombre <input type="text" name="name" /></label>
+                  </p>
+                  <p>
+                    <label>Email <input type="email" name="email" /></label>
+                  </p>
+                  <p>
+                    <input type="text">
+                  </p>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Grid section -->
       <div class="px-4 py-5">
         <div class="container-fluid">
           <div class="row gy-4 gx-5 masonry-wrapper">
@@ -316,6 +351,7 @@
         </div>
       </div>
     </div>
+    
     <!-- Footer Section -->
     <footer class="text-muted footer" data-aos="fade-up">
       <div class="container-fluid py-5">
@@ -383,6 +419,10 @@
     <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
     <script src="vendor/glightbox/js/glightbox.min.js"></script>
     <script src="js/front.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <script>
       // ------------------------------------------------------- //
       //   Inject SVG Sprite - 
