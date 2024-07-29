@@ -116,9 +116,10 @@
         <header class="header">
           <nav class="navbar navbar-expand-lg navbar-light px-0">
             <button class="navbar-toggler navbar-toggler-end text-sm text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <svg class="svg-icon svg-icon-heavy svg-icon-sm text-dark">
+              <!-- <svg class="svg-icon svg-icon-heavy svg-icon-sm text-dark">
                 <use xlink:href="#menu-hamburger-1"> </use>
-              </svg>
+              </svg> -->
+              <i class="fas fa-bars"></i>
             </button><a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="" width="50"></a>
           </nav>
         </header>
@@ -150,6 +151,7 @@
                   <p>
                     <label><textarea type="message" name="message" placeholder="Escribe tu mensaje"></textarea></label>
                   </p>
+                  <div data-netlify-recaptcha="true"></div> 
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                     <button type="submit" class="btn btn-primary">Enviar</button>
@@ -373,7 +375,7 @@
                   <li class="mb-1 text-muted"><a class="reset-anchor"> <i class="fas me-2 fa-fw fa-envelope"></i>juannahuelbeck@gmail.com</a></li>
                 </ul>
               <!-- Botón de contacto -->
-              <div class="boton-form-footer my-5">
+              <div class="boton-form-footer my-5" data-aos="fade-up">
                 <button type="button" class="btn btn-outline-dark w-75" data-toggle="modal" data-target="#myModal"><i class="fas fa-envelope"></i>Escribime!</button>
               </div>
               </div>
@@ -383,7 +385,7 @@
       </div>
       
       <!-- Social network icons -->
-      <div class="container-fluid py-5">
+      <div class="container-fluid py-5" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <div class="row gy-4">
