@@ -147,13 +147,13 @@
               <div class="modal-body">
                 <form name="contact" netlify>
                   <p>
-                    <label><input type="text" name="name" placeholder="Nombre" /></label>
+                    <label><input type="text" name="name" placeholder="Nombre" required data-error="Por favor, ingresa tu nombre." /></label>
                   </p>
                   <p>
-                    <label><input type="email" name="email" placeholder="Email" /></label>
+                    <label><input type="email" name="email" placeholder="Email" required title="Por favor, ingresa tu nombre." /></label>
                   </p>
                   <p>
-                    <label><textarea type="message" name="message" placeholder="Escribe tu mensaje"></textarea></label>
+                    <label><textarea type="message" name="message" placeholder="Escribe tu mensaje" required data-error="Por favor, escribe la consulta."></textarea></label>
                   </p>
                   <div data-netlify-recaptcha="true"></div> 
                   <div class="modal-footer">
