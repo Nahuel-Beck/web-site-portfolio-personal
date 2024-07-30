@@ -326,3 +326,17 @@ h4{
         display: none;
     }
 }
+
+/* 
+.modal-body input:invalid {
+    border: 2px solid red;
+}
+
+.modal-body textarea:invalid::after {
+    content: attr(data-error);
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
+*/
