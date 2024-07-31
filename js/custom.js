@@ -27,16 +27,3 @@ inputs.forEach(function(input) {
     btnDisabled.disabled = !(allFilled && recaptchaValidated);
   });
 });
-
-// Función de callback para reCAPTCHA
-function recaptchaCallback() {
-  recaptchaValidated = true;
-  // Verifica si todos los campos están llenos para habilitar el botón
-  var allFilled = true;
-  inputs.forEach(function(input) {
-    if (input.value.trim() === '') {
-      allFilled = false;
-    }
-  });
-  btnDisabled.disabled = !(allFilled && recaptchaValidated);
-}
