@@ -145,22 +145,67 @@
                 </button>
               </div>
               <div class="modal-body">
-                <form name="contact" netlify>
+
+
+
+
+
+                <form class="was-validated" id="form-contacto" netlify novalidate>        
+                  <div class="my-3">
+                      <label for="validationTextarea" class="form-label">
+                          <input class="form-control is-invalid" id="validationTextarea" type="text" name="name" placeholder="Ingresa un Nombre" required />
+                      </label>
+                  </div>
+                  <div class="my-3">
+                      <label for="validationTextarea" class="form-label">
+                          <input class="form-control is-invalid" id="validationTextarea" type="email" name="email" placeholder="Y aquí un mail" required />
+                      </label>
+                  </div>
+                  <div class="mb-3">
+                      <label for="validationTextarea" class="form-label"></label>
+                      <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Es necesario el mensaje para continuar" required></textarea>
+                      <!-- <div class="invalid-feedback">
+                          Please enter a message in the textarea.
+                      </div> -->
+                  </div>
+                  <div data-netlify-recaptcha="true"></div> 
+                  <div class="modal-footer mb-3">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                      <button type="submit" class="btn btn-primary" id="btn-form">Enviar</button>
+                  </div>
+              </form>
+
+
+
+
+
+
+                
+                <!-- <form name="contact" netlify novalidate>
                   <p>
-                    <label><input type="text" name="name" placeholder="Nombre" required data-error="Por favor, ingresa tu nombre." /></label>
+                    <label>
+                      <input type="text" name="name" placeholder="Nombre" required />
+                    </label>
+                    <div class="valid-feedback">Todo ok</div>
+                    <div class="invalid-feedback">Vuelve a intentarlo</div>
                   </p>
                   <p>
-                    <label><input type="email" name="email" placeholder="Email" required title="Por favor, ingresa tu nombre." /></label>
+                    <label>
+                      <input type="email" name="email" placeholder="Email" required title="Por favor, ingresa tu nombre." />
+                    </label>
                   </p>
                   <p>
-                    <label><textarea type="message" name="message" placeholder="Escribe tu mensaje" required data-error="Por favor, escribe la consulta."></textarea></label>
+                    <label>
+                      <textarea type="message" name="message" placeholder="Escribe tu mensaje" required data-error="Por favor, escribe la consulta."></textarea>
+                    </label>
                   </p>
                   <div data-netlify-recaptcha="true"></div> 
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                     <button type="submit" class="btn btn-primary">Enviar</button>
                   </div>
-                </form>
+                </form> -->
+
               </div>
             </div>
           </div>
@@ -434,6 +479,7 @@
     <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
     <script src="vendor/glightbox/js/glightbox.min.js"></script>
     <script src="js/front.js"></script>
+    <script src="js/custom.js" ></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
