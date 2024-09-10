@@ -340,3 +340,8 @@ h4{
     margin-top: 5px;
 }
 */
+.menu-lateral{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
