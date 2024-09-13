@@ -26,6 +26,51 @@
     <!-- Botón de Whatsapp -->
     <!-- <a href="https://wa.me/543764662309?text=Hola,%20me%20gustaría%20realizar%20una%20consulta%20sobre..." class="whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i></a> -->
     <!-- Sidebar -->
+
+    <!-- Modal para contacto -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index: 9999;">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header cabeza-modal">
+            <div class="titulo-modal-contacto">
+              <h5 class="modal-title" id="exampleModalLabel">Conversemos</h5>
+              <div class="texto-modal-contacto">
+                <p class="modal-title">Gracias por comunicarte, te voy a responder lo antes posible</p>
+              </div>
+            </div>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+
+            <form class="was-validated" id="form-contacto" name="contact" method="POST" netlify netlify-honeypot="bot-field" novalidate>
+              <div class="my-1">
+                <label for="validationTextarea" class="form-label">
+                  <input class="form-control is-invalid" id="validationTextarea" type="text" name="name" placeholder="Ingresa un Nombre" required />
+                </label>
+              </div>
+              <div class="my-1">
+                <label for="validationTextarea" class="form-label">
+                  <input class="form-control is-invalid" id="validationTextarea" type="email" name="email" placeholder="Y aquí un mail" required />
+                </label>
+              </div>
+              <div class="mb-2">
+                <label for="validationTextarea" class="form-label">
+                  <textarea class="form-control is-invalid" id="validationTextarea" type="message" name="message" placeholder="Es necesario el mensaje para continuar" required></textarea>
+                </label>
+              </div>
+              <div data-netlify-recaptcha="true"></div>
+              <div class="modal-footer mb-2">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="submit" class="btn btn-primary" id="btn-form" disabled>Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <div class="sidebar">
       <div class="sidebar-inner d-flex flex-column">
         <div class="px-4 py-5"><a href="index.html"><img src="img/logo.svg" alt="Nahuel Beck logo" width="90"></a></div>
@@ -42,6 +87,10 @@
               <p class="sidebar-link h6 text-uppercase fw-bold text-sm">Proyectos</p>
             </li>
           </ul>
+          <!-- Botón de contacto -->
+          <div class="boton-form mx-4">
+            <button type="button" class="btn btn-outline-dark w-100" data-toggle="modal" data-target="#myModal">Contacto</button>
+          </div>
         </div>
 
         <!-- Social network icons -->
@@ -72,6 +121,7 @@
           </nav>
         </header>
       </div>
+
       <!-- Bbreadcrumb -->
       <nav aria-label="breadcrumb" class="mt-5 px-3">
         <ol class="breadcrumb px-4">
@@ -84,11 +134,10 @@
           <div class="row">
             <div class="col-lg-7">
               <h1>Animación</h1>
-              <div class="row  mb-5 bg-grey">
-                <p class="p-3">Administración ...</p>
-                </div>
+              <p class="text-muted mb-5">Animación de marcas y motion graphics</p>
               </div>
             </div>
+          </div>
           </div>
           <div class="row mb-5">
             <video class="video-portfolio elemento-portfolio" autoplay loop muted>
@@ -103,9 +152,9 @@
             </div> -->
             <div class="col-lg-5 position-sticky">
               <h2>Idea</h2>
-              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <h2>Proceso</h2>
-              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p class="text-muted">Estas son algunas de las animaciones realizadas a diferents marcas gráficas. En su mayoría son de distintos proyectos. También hay una exploración en <strong>motions graphics</strong>.<br>Se puede ver más en el canal de youtube.</p>
+              <!-- <h2>Proceso</h2> -->
+              <!-- <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
               <div class="row mt-5 to-figma">
                 <a class="col" href="https://www.youtube.com/@nahuelbeck2115" target="_blank" rel="noopener noreferrer nofollow">
                     <button class="btn-figma px-4 py-2 w-lg-50 w-md-100">
@@ -243,6 +292,11 @@
     <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
     <script src="vendor/glightbox/js/glightbox.min.js"></script>
     <script src="js/front.js"></script>
+    <script src="js/custom.js" ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=recaptchaCallback&render=explicit" async defer></script>
     <script>
       // ------------------------------------------------------- //
       //   Inject SVG Sprite - 
