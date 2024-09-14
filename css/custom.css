@@ -345,6 +345,9 @@ h4{
     display: flex;
     flex-direction: column;
 }
+.menu-lateral a {
+    letter-spacing: -.052px;
+}
 
 .iconos-about-me i{
     color: #6b6b6b;
