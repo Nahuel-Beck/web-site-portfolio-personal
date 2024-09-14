@@ -6,6 +6,10 @@
     /* font-size: 10px; */
     font-weight: 300;
 }
+.sidebar-menu .sidebar-link.active{
+    color: #0d506e;
+    font-weight: 900 !important;
+}
 .sidebar-scroll{
     height: 40vh;
 
@@ -158,6 +162,17 @@
 
 h4{
     font-weight: 100;
+}
+
+@media (max-width:960px){
+    .img-perfil{
+        padding-right: .5rem !important;
+        padding-left: .5rem !important;
+    }
+    .img-perfil ul {
+        flex-wrap: wrap;
+        align-items: start !important;
+    }
 }
 
 .img-perfil img{
@@ -321,6 +336,10 @@ h4{
     padding-right: 1rem;
 }
 
+.boton-form p {
+    letter-spacing: -.3px;    
+}
+
 @media (max-width: 960px) {
     .boton-form {
         display: none;
@@ -346,7 +365,12 @@ h4{
     flex-direction: column;
 }
 .menu-lateral a {
+    font-weight: 600;
     letter-spacing: -.052px;
+}
+
+.menu-lateral a i {
+    margin-right: .5rem;
 }
 
 .iconos-about-me i{
@@ -364,5 +388,10 @@ h4{
     .iconos-about-me i.fa-youtube:hover{
         color: #FF0000;
         transition: all .7s;
+    }
+}
+@media (max-width:960px) {
+    .acciones-curriculum{
+        flex-direction: column;
     }
 }
