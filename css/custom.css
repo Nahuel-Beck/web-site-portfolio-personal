@@ -345,3 +345,21 @@ h4{
     display: flex;
     flex-direction: column;
 }
+
+.iconos-about-me i{
+    color: #6b6b6b;
+}
+@media (hover:hover){
+    .iconos-about-me i.fa-linkedin:hover{
+        color: #0e76a8;
+        transition: all .7s;
+    }
+    .iconos-about-me i.fa-github:hover{
+        color: #000;
+        transition: all .7s;
+    }
+    .iconos-about-me i.fa-youtube:hover{
+        color: #FF0000;
+        transition: all .7s;
+    }
+}
