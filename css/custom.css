@@ -121,6 +121,7 @@
     border-left: 4px solid #ef5285;
 }
 #sign {
+    display: none;
     position: absolute;
     bottom: 0;    
     width: 100vw;
