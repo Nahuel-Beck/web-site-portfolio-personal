@@ -201,6 +201,32 @@ h4{
     background-color: #f7f7f7;
 }
 
+.exito-mensaje{
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    height: 100vh;
+}
+.exito-mensaje > div{
+    width: 40vw;
+    padding: 3rem;
+    border: 1px solid #52ef6c;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+.exito-mensaje .btn-outline-primary {
+    color: #35aa49;
+    border-color: #52ef6c;
+}
+
+@media (hover:hover) {
+    .exito-mensaje .btn-outline-primary:hover{
+        background-color: #247532;
+        border-color: #247532;
+        color: #fff;
+    }   
+}
+
 .nahuebeck{
     display: flex;
     place-content: center;
