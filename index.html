@@ -116,7 +116,12 @@
               </div>
               <div class="modal-body">
 
-                <form class="was-validated" id="form-contacto" name="contact" action="/exito-formulario.html" method="POST" netlify netlify-honeypot="bot-field" novalidate>
+                <form class="was-validated" id="form-contacto" name="contact" action="/pages/success" method="POST" netlify netlify-honeypot="bot-field" novalidate>
+
+                  <div style="display:none">
+                    <input type="text" name="bot-field" />
+                  </div>
+                  
                   <div class="my-1">
                     <label for="validationTextarea" class="form-label">
                       <input class="form-control is-invalid" id="validationTextarea" type="text" name="name" placeholder="Ingresa un Nombre" required />
@@ -132,7 +137,7 @@
                       <textarea class="form-control is-invalid" id="validationTextarea" type="message" name="message" placeholder="Es necesario el mensaje para continuar" required></textarea>
                     </label>
                   </div>
-                  <div data-netlify-recaptcha="true"></div>
+                  <!-- <div data-netlify-recaptcha="true"></div> -->
                   <div class="modal-footer mb-2">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                     <button type="submit" class="btn btn-primary" id="btn-form" disabled>Enviar</button>
