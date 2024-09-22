@@ -14,11 +14,14 @@ var inputs = formulario.querySelectorAll('input, textarea');
 // Función para verificar si todos los campos están llenos
 function checkFields() {
   var allFilled = true;
+
   inputs.forEach(function(input) {
+    // Verifica si el campo está vacío o tiene solo espacios
     if (input.value.trim() === '') {
       allFilled = false;
     }
   });
+
   // Habilita o deshabilita el botón basado en si todos los campos están llenos
   btnDisabled.disabled = !allFilled;
 }
