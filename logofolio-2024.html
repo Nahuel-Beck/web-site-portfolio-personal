@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Portal web</title>
+    <title>Nahuel Beck - Portfolio</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -22,6 +22,10 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
+
+    <!-- Botón de Whatsapp -->
+    <!-- <a href="https://wa.me/543764662309?text=Hola,%20me%20gustaría%20realizar%20una%20consulta%20sobre..." class="whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i></a> -->
+
     <!-- Modal para contacto -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index: 9999;">
       <div class="modal-dialog" role="document">
@@ -65,7 +69,6 @@
         </div>
       </div>
     </div>
-    <button type="button" class=" boton-form-mobile" data-toggle="modal" data-target="#myModal"><i class="far fa-envelope"></i></button>
 
     <!-- Sidebar -->
     <div class="sidebar">
@@ -77,14 +80,14 @@
               <a class="sidebar-link h6 text-uppercase fw-normal text-sm" href="index.html"><i class="fa-solid fa-wand-magic-sparkles px-1"></i>Proyectos</a>
             </li>
             <li class="mb-2 pb-1">
-              <a class="sidebar-link h6 text-uppercase fw-normal text-sm active" href="about-me.html"><i class="fa-regular fa-address-card px-1"></i>Sobre mi</a>
+              <a class="sidebar-link h6 text-uppercase fw-normal text-sm" href="about-me.html"><i class="fa-regular fa-address-card px-1"></i>Sobre mi</a>
             </li>
             <!-- <li class="mb-2 pb-1">
             </li> -->
           </ul>
           <!-- Botón de contacto -->
           <div class="boton-form mx-4">
-            <p class="px-2 mb-3">Si tenés curiosidad sobre algun proyecto en particular, escribime para saber más detalles</p>
+            <p class="px-2 mb-3"  >Si tenés curiosidad sobre algun proyecto en particular, escribime para saber más detalles</p>
             <button type="button" class="btn btn-outline-dark w-100" data-toggle="modal" data-target="#myModal">Contacto</button>
           </div>
         </div>
@@ -104,8 +107,7 @@
       </div>
     </div>
 
-    
-    <div class="page-holder">
+    <div class="page-holder" data-aos="fade-up" data-aos-duration="750">
       <div class="px-4 d-block d-lg-none">
         <!-- navbar-->
         <header class="header">
@@ -119,146 +121,111 @@
         </header>
       </div>
 
+      <!-- Bbreadcrumb -->
+      <nav aria-label="breadcrumb" class="mt-5 px-3">
+        <ol class="breadcrumb px-4">
+          <li class="breadcrumb-item"><a href="index.html">Portfolio</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Logos 2024</li>
+        </ol>
+      </nav>
       <div class="px-4 py-5">
         <div class="container-fluid">
-          <div class="p-5 mb-5 bg-light img-perfil">
-            <div class="row gy-3">
-              <div class="col-sm-9">
-                <h3 class="fw-normal">Hola! Soy <strong>Nahuel Beck</strong></h3>
-                <h2 class="h1 fw-normal mb-4"><strong>Diseñador gráfico </strong>y desarrollador frontend trainee.</h2>
-                <p class="text-muted mb-4">Desde el 2017 trabajo en el ámbito del diseño, desempeñándome en el área de tecnologías de la información como UX / UI. También he desarrollado proyectos de branding de manera integral, acompañando el crecimiento de pequeñas y medianas empresas y organizaciones públicas y privadas. He colaborado con empresas de República Dominicana como toda la Argentina, mi país natal.</p>
-                <p class="text-muted mb-4">Actualmente trabajo con Pamela Lacoque en  <a href="https://contenidx.com.ar" target="_blank" rel="noopener noreferrer" data-bs-toggle="tooltip" data-bs-title="Ir al sitio">Contenidx</a>.</p>
-                <ul class="list-inline mb-0 d-flex align-items-center acciones-curriculum">
-                  <li class="list-inline-item me-5 my-2 btns-about-me">
-                    <a class="btn btn-primary px-3" href="../docs/Curriculum-Nahuel-Beck-2024.pdf" download> 
-                      <i class="fas fa-file-download px-2"></i>Descargar Curriculm
-                    </a>
-                    <a class="btn btn-outline-dark px-3" href="https://registrograduados.siu.edu.ar/consulta.php?id_tipo_documento^^VlR4S0pDbi9qZ3BQUkVrOFAyMGNpUT09||nro_documento^^c1NDaFlsdlB5QWpQRG84bjRVdGJyZz09||nombres^^TnI0MGRWSUV0RmkvWGlIOUZiWS8yUT09||apellidos^^dGJNTEdTRkxQcm9tblR1N1d1Q25aQT09" rel="noopener noreferrer" target="_blank" data-bs-toggle="tooltip" data-bs-title="Ir al Registro de Graduados"> 
-                      <i class="fa-solid fa-graduation-cap px-2"></i>Ver Título
-                    </a>
-                  </li>
-                  <li class="list-inline-item my-2 iconos-about-me">
-                    <ul class="list-inline mb-0">
-                      <li class="list-inline-item"><a class="reset-anchor" href="https://www.linkedin.com/in/nahuel-beck/" target="_blank" rel="nofollow noopener"><i class="fab fa-linkedin fa-2x"></i></a></li>
-                      <li class="list-inline-item"><a class="reset-anchor" href="https://github.com/Nahuel-Beck" target="_blank" rel="nofollow noopener"><i class="fab fa-github fa-2x"></i></a></li>
-                      <li class="list-inline-item"><a class="reset-anchor" href="https://www.youtube.com/@nahuelbeck2115" target="_blank" rel="nofollow noopener"><i class="fab fa-youtube fa-2x"></i></a></li>
-                    </ul>
-                  </li>
-                </ul>
+          <div class="row">
+            <div class="col-lg-7">
+              <h1>Logos 2024</h1>
+              <div class="row mb-5">
+                <p class="p-3">Recopilación de logos trabajados en finales de 2023 y 2024</p>
+                </div>
               </div>
-              <div class="col-sm-3"><img class="img-fluid rounded" src="../img/about-profile.jpeg" alt="Nahuel Beck"></div>
             </div>
           </div>
-          <!-- <div class="px-lg-5">
-            <h2 class="h1">Work experience</h2>
-            <p class="text-muted mb-4">Received overcame oh sensible so at an. Formed do change merely to county it.</p>
-            <div class="row mb-4 gy-4">
-              <div class="col-lg-6">
-                <div class="d-flex">
-                  <div class="flex-shrink-0">
-                    <svg class="svg-icon text-primary">
-                      <use xlink:href="#stack-1"> </use>
-                    </svg>
-                  </div>
-                  <div class="ms-3">
-                    <h3 class="h5 me-3">Graphic Designer</h3>
-                    <p class="text-muted mb-2">received overcame oh sensible so at an. Formed do change merely to county it. Am separate contempt domestic to to oh. On relation my so addition branched.</p>
-                  </div>
+          <div class="row mb-5">
+            <div class="col-lg-7">
+              
+              <!-- Imágenes de portfolio -->
+              <a class="glightbox product-view elemento-portfolio" href="img/logofolio/CIT-Pruebas.png" data-gallery="gallery" data-glightbox="IPTI"><img class="img-fluid" src="img/logofolio/CIT-Pruebas.png" alt="..."></a>
+              <a class="glightbox product-view elemento-portfolio" href="img/logofolio/CIT-Pruebas-2.png" data-gallery="gallery" data-glightbox="IPTI"><img class="img-fluid mt-4" src="img/logofolio/CIT-Pruebas-2.png" alt="..."></a>
+              <a class="glightbox product-view" href="img/logofolio/Centenario.png" data-gallery="gallery" data-glightbox="Centenario"></a>
+              <a class="glightbox product-view" href="img/logofolio/Centenario-3.png" data-gallery="gallery" data-glightbox="Centenario"></a>
+              <a class="glightbox product-view" href="img/logofolio/Centenario-2.png" data-gallery="gallery" data-glightbox="Centenario"></a>
+              <a class="glightbox product-view" href="img/logofolio/Tata.png" data-gallery="gallery" data-glightbox="Tata Piriri"></a>
+              <a class="glightbox product-view" href="img/logofolio/Tata-2.png" data-gallery="gallery" data-glightbox="Tata Piriri"></a>
+              <a class="glightbox product-view" href="img/logofolio/Tata-3.png" data-gallery="gallery" data-glightbox="Tata Piriri"></a>
+              <a class="glightbox product-view" href="img/logofolio/Tata-4.png" data-gallery="gallery" data-glightbox="Tata Piriri"></a>
+              <a class="glightbox product-view" href="img/logofolio/Raven.png" data-gallery="gallery" data-glightbox="Raven"></a>
+              <a class="glightbox product-view" href="img/logofolio/Raven-2.png" data-gallery="gallery" data-glightbox="Raven"></a>
+              <a class="glightbox product-view" href="img/logofolio/Raven-3.png" data-gallery="gallery" data-glightbox="Raven"></a>
+              <a class="glightbox product-view" href="img/logofolio/CIT-Redondo.png" data-gallery="gallery" data-glightbox="Raven"></a>
+              <a class="glightbox product-view" href="img/logofolio/CIT-Redondo-2.png" data-gallery="gallery" data-glightbox="Raven"></a>
+              <a class="glightbox product-view" href="img/logofolio/Mugre-2.png" data-gallery="gallery" data-glightbox="Raven"></a>
+              <a class="glightbox product-view" href="img/logofolio/Mugre.png" data-gallery="gallery" data-glightbox="Raven"></a>
+            </div>
+            <div class="col-lg-5 position-sticky">
+              <h2>Contexto</h2>
+              <p class="text-muted">Solo se presentan los logos desarrollados en el período de Diciembre de 2023 a 2024.</p>
+            </div>
+          </div>
+          <!-- <h2 class="h3 mb-4">Related projects</h2>
+          <div class="row gy-4 gx-5">
+            <div class="col-lg-4">
+              <div class="listing-item ps-0">
+                <div class="position-relative">
+                  <ul class="list-inline listing-tags m-0">
+                    <li class="list-inline-item"><a class="reset-anchor fw-normal text-gray text-sm" href="detail.html">Creative</a></li>
+                  </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid rounded-lg" src="img/portfolio-1.jpg" alt="Banana Lady"/>
+                    <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
+                      <svg class="svg-icon text-primary svg-icon-sm ms-1">
+                        <use xlink:href="#arrow-right-1"> </use>
+                      </svg>
+                    </p></a>
                 </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="d-flex">
-                  <div class="flex-shrink-0">
-                    <svg class="svg-icon text-primary">
-                      <use xlink:href="#laptop-screen-1"> </use>
-                    </svg>
-                  </div>
-                  <div class="ms-3">
-                    <h3 class="h5 me-3">Web Designer</h3>
-                    <p class="text-muted mb-2">received overcame oh sensible so at an. Formed do change merely to county it. Am separate contempt domestic to to oh. On relation my so addition branched.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="d-flex">
-                  <div class="flex-shrink-0">
-                    <svg class="svg-icon text-primary">
-                      <use xlink:href="#design-1"> </use>
-                    </svg>
-                  </div>
-                  <div class="ms-3">
-                    <h3 class="h5 me-3">UI Designer</h3>
-                    <p class="text-muted mb-2">received overcame oh sensible so at an. Formed do change merely to county it. Am separate contempt domestic to to oh. On relation my so addition branched.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="d-flex">
-                  <div class="flex-shrink-0">
-                    <svg class="svg-icon text-primary">
-                      <use xlink:href="#multiple-windows-1"> </use>
-                    </svg>
-                  </div>
-                  <div class="ms-3">
-                    <h3 class="h5 me-3">Web Developer</h3>
-                    <p class="text-muted mb-2">received overcame oh sensible so at an. Formed do change merely to county it. Am separate contempt domestic to to oh. On relation my so addition branched.</p>
-                  </div>
+                <div class="py-3"><a class="reset-anchor" href="detail.html">
+                    <h2 class="h5 listing-item-heading">Banana Lady</h2></a>
+                  <p class="text-sm mb-0 listing-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                 </div>
               </div>
             </div>
-            <h2 class="h1">Fun facts</h2>
-            <p class="text-muted mb-4">Received overcame oh sensible so at an. Formed do change merely to county it.</p>
-            <div class="row text-center align-items-stretch">
-              <div class="col-lg-3">
-                <div class="border p-4 h-100 d-flex align-items-center">
-                  <div class="w-100">
-                    <svg class="svg-icon text-gray mb-2">
-                      <use xlink:href="#stack-1"> </use>
-                    </svg>
-                    <h5>Happy clients</h5>
-                    <p class="mb-0 text-gray h5">1200</p>
-                  </div>
+            <div class="col-lg-4">
+              <div class="listing-item ps-0">
+                <div class="position-relative">
+                  <ul class="list-inline listing-tags m-0">
+                    <li class="list-inline-item"><a class="reset-anchor fw-normal text-gray text-sm" href="detail.html">Creative</a></li>
+                  </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid rounded-lg" src="img/portfolio-4.jpg" alt="Treasure Haunted"/>
+                    <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
+                      <svg class="svg-icon text-primary svg-icon-sm ms-1">
+                        <use xlink:href="#arrow-right-1"> </use>
+                      </svg>
+                    </p></a>
                 </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="border p-4 h-100 d-flex align-items-center bg-light">
-                  <div class="w-100">
-                    <svg class="svg-icon text-gray mb-2">
-                      <use xlink:href="#quality-1"> </use>
-                    </svg>
-                    <h5>Awards won</h5>
-                    <p class="mb-0 text-gray h5">18</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="border p-4 h-100 d-flex align-items-center">
-                  <div class="w-100">
-                    <svg class="svg-icon text-gray mb-2">
-                      <use xlink:href="#time-1"> </use>
-                    </svg>
-                    <h5>Working hours</h5>
-                    <p class="mb-0 text-gray h5">6500</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="border p-4 h-100 d-flex align-items-center bg-light">
-                  <div class="w-100">
-                    <svg class="svg-icon text-gray mb-2">
-                      <use xlink:href="#hot-coffee-1"> </use>
-                    </svg>
-                    <h5>Coffee consumed</h5>
-                    <p class="mb-0 text-gray h5">18000</p>
-                  </div>
+                <div class="py-3"><a class="reset-anchor" href="detail.html">
+                    <h2 class="h5 listing-item-heading">Treasure Haunted</h2></a>
+                  <p class="text-sm mb-0 listing-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
                 </div>
               </div>
             </div>
-          </div> -->
-        </div>
+            <div class="col-lg-4">
+              <div class="listing-item ps-0">
+                <div class="position-relative">
+                  <ul class="list-inline listing-tags m-0">
+                    <li class="list-inline-item"><a class="reset-anchor fw-normal text-gray text-sm" href="detail.html">Creative</a></li>
+                  </ul><a class="reset-anchor d-block listing-img-holder" href="detail.html"><img class="img-fluid rounded-lg" src="img/portfolio-5.jpg" alt="Best Friends"/>
+                    <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Look inside</span>
+                      <svg class="svg-icon text-primary svg-icon-sm ms-1">
+                        <use xlink:href="#arrow-right-1"> </use>
+                      </svg>
+                    </p></a>
+                </div>
+                <div class="py-3"><a class="reset-anchor" href="detail.html">
+                    <h2 class="h5 listing-item-heading">Best Friends</h2></a>
+                  <p class="text-sm mb-0 listing-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
       </div>
     </div>
-    
+
     <!-- Footer Section -->
     <footer class="text-muted footer" data-aos="fade-up">
       <div class="container-fluid py-5">
@@ -320,6 +287,7 @@
         </div>
       </div>
     </footer>
+
     <!-- JavaScript files-->
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/masonry-layout/masonry.pkgd.min.js"></script>
