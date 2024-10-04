@@ -167,8 +167,8 @@ h4{
 
 @media (max-width:960px){
     .img-perfil{
-        padding-right: .5rem !important;
-        padding-left: .5rem !important;
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
     }
     .img-perfil ul {
         flex-wrap: wrap;
@@ -420,5 +420,16 @@ h4{
 @media (max-width:960px) {
     .acciones-curriculum{
         flex-direction: column;
+    }
+    .btns-about-me {
+        margin: .5rem !important;
+    }
+    .btns-about-me a{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .page-holder .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
