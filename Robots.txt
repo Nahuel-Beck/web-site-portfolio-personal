@@ -1,0 +1,8 @@
+# Bloquea el acceso a carpetas sensibles y archivos específicos
+User-agent: *
+Disallow: /vendor/
+Disallow: /js/
+Disallow: /Robots.txt
+
+# URL canónica para evitar contenido duplicado
+Sitemap: https://nahuelbeck.com.ar/sitemap.xml
