@@ -373,19 +373,54 @@ h4{
     }
 }
 
-/* 
-.modal-body input:invalid {
-    border: 2px solid red;
+.modal-dialog {
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
-.modal-body textarea:invalid::after {
-    content: attr(data-error);
-    color: red;
-    font-size: 12px;
-    display: block;
-    margin-top: 5px;
+.modal-content{
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    width: fit-content;
 }
-*/
+
+.modal-content > img {
+    /* height: 80vh; */
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 80vw;
+        margin: 1.75rem auto;
+    }
+    .modal-content > img {
+        height: 80vh;
+    }
+    .modal-header.cabeza-modal button {
+        position: relative;
+        left: 5rem;
+        border: 1px solid #fff;
+        top: -1rem;
+    }
+}
+
+.imagen-fom {
+    width: 30vw;
+    background-image: url("/img/contenidx/Marca-CX.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/* Fin Formulario*/
+
+
+
+
+
 .menu-lateral{
     justify-content: space-between;
     display: flex;
@@ -437,37 +472,4 @@ h4{
 .seo {
     position: absolute;
     visibility: hidden;
-}
-
-.modal-dialog {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-.modal-content{
-    display: flex;
-    flex-direction: row;
-    height: max-content;
-    width: fit-content;
-}
-
-.modal-content > img {
-    /* height: 80vh; */
-}
-
-@media (min-width: 576px) {
-    .modal-dialog {
-        max-width: 80vw;
-        margin: 1.75rem auto;
-    }
-    .modal-content > img {
-        height: 80vh;
-    }
-    .modal-header.cabeza-modal button {
-        position: relative;
-        left: 5rem;
-        border: 1px solid #fff;
-        top: -1rem;
-    }
 }
