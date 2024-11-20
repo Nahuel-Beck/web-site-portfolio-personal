@@ -438,3 +438,36 @@ h4{
     position: absolute;
     visibility: hidden;
 }
+
+.modal-dialog {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.modal-content{
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    width: fit-content;
+}
+
+.modal-content > img {
+    /* height: 80vh; */
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 80vw;
+        margin: 1.75rem auto;
+    }
+    .modal-content > img {
+        height: 80vh;
+    }
+    .modal-header.cabeza-modal button {
+        position: relative;
+        left: 5rem;
+        border: 1px solid #fff;
+        top: -1rem;
+    }
+}
