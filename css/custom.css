@@ -414,6 +414,23 @@ h4{
 }
 
 
+@media (max-width:960px){
+    .modal-content {
+        flex-direction: column;
+    }
+    .imagen-fom {
+        height: 40vh;
+        width: 100vw;
+    }
+}
+
+/* 
+@media (max-width:960px){
+    .imagen-fom {
+        display: none;
+    }
+} */
+
 
 /* Fin Formulario*/
 
