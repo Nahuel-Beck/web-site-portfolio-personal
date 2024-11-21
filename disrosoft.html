@@ -30,41 +30,45 @@
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index: 9999;">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
-          <div class="modal-header cabeza-modal">
-            <div class="titulo-modal-contacto">
-              <h5 class="modal-title" id="exampleModalLabel">Conversemos</h5>
-              <div class="texto-modal-contacto">
-                <p class="modal-title">Gracias por comunicarte, te voy a responder lo antes posible</p>
+          <div class="imagen-fom"></div>
+          <!-- <img src="/img/contenidx/Marca-CX.gif" alt="Imagen que acompaña el formulario"> -->
+          <div>
+            <div class="modal-header cabeza-modal">
+              <div class="titulo-modal-contacto">
+                <h5 class="modal-title" id="exampleModalLabel">Conversemos</h5>
+                <div class="texto-modal-contacto">
+                  <p class="modal-title">Gracias por comunicarte, te voy a responder lo antes posible</p>
+                </div>
               </div>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-
-            <form class="was-validated" id="form-contacto" name="contact" method="POST" netlify netlify-honeypot="bot-field" novalidate>
-              <div class="my-1">
-                <label for="validationTextarea" class="form-label">
-                  <input class="form-control is-invalid" id="validationTextarea" type="text" name="name" placeholder="Ingresa un Nombre" required />
-                </label>
-              </div>
-              <div class="my-1">
-                <label for="validationTextarea" class="form-label">
-                  <input class="form-control is-invalid" id="validationTextarea" type="email" name="email" placeholder="Y aquí un mail" required />
-                </label>
-              </div>
-              <div class="mb-2">
-                <label for="validationTextarea" class="form-label">
-                  <textarea class="form-control is-invalid" id="validationTextarea" type="message" name="message" placeholder="Es necesario el mensaje para continuar" required></textarea>
-                </label>
-              </div>
-              <div data-netlify-recaptcha="true"></div>
-              <div class="modal-footer mb-2">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                <button type="submit" class="btn btn-primary" id="btn-form" disabled>Enviar</button>
-              </div>
-            </form>
+          
+            <div class="modal-body">
+              <form class="was-validated" id="form-contacto" name="contact" method="POST" netlify netlify-honeypot="bot-field" novalidate>
+                <div class="my-1">
+                  <label for="validationTextarea" class="form-label">
+                    <input class="form-control is-invalid" id="validationTextarea" type="text" name="name" placeholder="Ingresa un Nombre" required />
+                  </label>
+                </div>
+                <div class="my-1">
+                  <label for="validationTextarea" class="form-label">
+                    <input class="form-control is-invalid" id="validationTextarea" type="email" name="email" placeholder="Y aquí un mail" required />
+                  </label>
+                </div>
+                <div class="mb-2">
+                  <label for="validationTextarea" class="form-label">
+                    <textarea class="form-control is-invalid" id="validationTextarea" type="message" name="message" placeholder="Es necesario el mensaje para continuar" required></textarea>
+                  </label>
+                </div>
+                <div data-netlify-recaptcha="true"></div>
+                <div class="modal-footer mb-2">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                  <button type="submit" class="btn btn-primary" id="btn-form" disabled>Enviar</button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
