@@ -490,3 +490,42 @@ h4{
     position: absolute;
     visibility: hidden;
 }
+
+.flyeres-general {
+    width: fit-content;
+    align-content: center;
+    justify-self: center;
+    /* padding: 3rem; */
+    overflow: auto;
+}
+
+.flyers-redes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    overflow-x: visible;
+    
+    background-color: #e6e6e6;
+    padding: 2rem;
+}
+.flyers-redes img {
+    height: auto;
+    width: 100%;
+    /* height: 50vh; */
+}
+
+@media (max-width: 960px) {
+    .flyers-redes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+        width: 100%;
+        padding: 1rem;
+        /* grid-template-rows: repeat(100px, auto); */
+    }
+}
+
+.flyeres-general div p {
+    border-left: 1px solid #000;
+}
