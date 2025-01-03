@@ -483,6 +483,7 @@ h4{
     .page-holder .container-fluid {
         padding-left: 0;
         padding-right: 0;
+        min-height: auto;
     }
 }
 
