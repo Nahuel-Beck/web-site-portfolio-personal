@@ -17,18 +17,18 @@
         "image": "https://nahuelbeck.com.ar/img/about-profile.jpeg",
         "description": "Portafolio de Tu Nahuel Beck, diseñador gráfico con experiencia en animación y diseño de experiencia de usuario. Proyectos de alto impacto visual y funcional.",
         "worksFor": {
-          "@type": "Organization",
-          "name": "Nahuel Beck"
+            "@type": "Organization",
+            "name": "Nahuel Beck"
         },
         "alumniOf": {
-          "@type": "CollegeOrUniversity",
-          "name": "Universidad Nacional de Misiones"
+            "@type": "CollegeOrUniversity",
+            "name": "Universidad Nacional de Misiones"
         },
         "knowsAbout": [ "Diseño UX", "Animación en After Effects", "Diseño de Interacción", "Prototipado", "Identidad Visual", "Figma", "Adobe Illustrator", "Adobe Photoshop", "Marca", "Logo" ],
         "sameAs": [
-          "https://www.linkedin.com/in/nahuel-beck/",
-          "https://github.com/Nahuel-Beck",
-          "https://www.youtube.com/@nahuelbeck2115"
+            "https://www.linkedin.com/in/nahuel-beck/",
+            "https://github.com/Nahuel-Beck",
+            "https://www.youtube.com/@nahuelbeck2115"
         ]
     }
     </script>
@@ -61,7 +61,7 @@
                     <li class="mb-2 pb-1">
                         <a class="sidebar-link h6 text-uppercase fw-normal text-sm" href="about-me.html"><i class="fa-regular fa-address-card px-1"></i>Sobre mi</a>
                     </li>
-                </ul>
+            </ul>
                 <!-- Botón de contacto -->
                 <div class="boton-form mx-4">
                     <p class="px-2 mb-3"  >Si tenés curiosidad sobre algun proyecto en particular, escribime para saber más detalles</p>
@@ -69,7 +69,7 @@
                 </div>
             </div>
 
-            <!-- Social network icons -->
+        <!-- Social network icons -->
             <div class="px-4 py-3">
                 <ul class="list-inline list-social mb-3">
                     <!-- <li class="list-inline-item"><a class="reset-anchor" href="https://www.facebook.com/nahue.beck/" target="_blank" rel="noopener noreferrer nofollow"><i class="fab fa-facebook-f"></i></a></li> -->
@@ -84,9 +84,70 @@
             </div>
         </div>
     </div>
+
+    <div id="page-holder">
+        <div class="px-4 d-block d-lg-none">
+            <!-- navbar-->
+            <header class="header">
+                <nav class="navbar navbar-expand-lg navbar-light px-0">
+                    <button class="navbar-toggler navbar-toggler-end text-sm text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button><a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="imagen" width="50"></a>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+    <!-- Modal para contacto -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index: 9999;">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="imagen-fom"></div>
+                <!-- <img src="/img/contenidx/Marca-CX.gif" alt="Imagen que acompaña el formulario"> -->
+                <div>
+                    <div class="modal-header cabeza-modal">
+                        <div class="titulo-modal-contacto">
+                            <h5 class="modal-title" id="exampleModalLabel">Conversemos</h5>
+                            <div class="texto-modal-contacto">
+                                <p class="modal-title">Gracias por comunicarte, te voy a responder lo antes posible</p>
+                            </div>
+                        </div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="was-validated" id="form-contacto" name="contact" method="POST" netlify netlify-honeypot="bot-field" novalidate>
+                            <div class="my-1">
+                                <label for="validationTextarea" class="form-label">
+                                    <input class="form-control is-invalid" id="validationTextarea" type="text" name="name" placeholder="Ingresa un Nombre" required />
+                                </label>
+                            </div>
+                            <div class="my-1">
+                                <label for="validationTextarea" class="form-label">
+                                    <input class="form-control is-invalid" id="validationTextarea" type="email" name="email" placeholder="Y aquí un mail" required />
+                                </label>
+                            </div>
+                            <div class="mb-2">
+                                <label for="validationTextarea" class="form-label">
+                                    <textarea class="form-control is-invalid" id="validationTextarea" type="message" name="message" placeholder="Es necesario el mensaje para continuar" required></textarea>
+                                </label>
+                            </div>
+                            <div data-netlify-recaptcha="true"></div>
+                            <div class="modal-footer mb-2">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                <button type="submit" class="btn btn-primary" id="btn-form" disabled>Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <section class="page-holder">
         <div class="flyeres-general">
-            <h2 class="my-5">Redes sociales</h2>
+            <h2 class="my-5 px-4">Redes sociales</h2>
             <div class="px-3">
                 <div class="d-flex gap-3 align-items-center mb-2 mt-5 py-2 px-2">
                     <h6 class="my-0">Ferromisiones</h6>
